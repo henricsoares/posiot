@@ -1,0 +1,5 @@
+sudo cp /home/henrique/Downloads/configuracao\ mosquitto/mosquitto.conf ./
+sudo cp *.conf /home/henrique/Downloads/configuracao\ mosquitto/conf.d/*.conf 
+sudo mosquitto_passwd -c /etc/mosquitto/passwd_file posiot
+sudo apt-get install mosquitto mosquitto-clients
+
